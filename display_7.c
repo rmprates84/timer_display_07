@@ -44,6 +44,7 @@ bool repeating_timer_callback(struct repeating_timer *t) {
 }
 
 int main() {
+    
     stdio_init_all();
     
     // Inicializa e configura os pinos dos segmentos como saída
